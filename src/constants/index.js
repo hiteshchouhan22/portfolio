@@ -7,11 +7,11 @@ export const servicesData = [
     items: [
       {
         title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        description: "(REST APIs, Microservices, Redis, Message Queues)",
       },
       {
         title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        description: "(React, Nextjs, TypeScript, Interactive UI/UX)",
       },
       {
         title: "Database Design",
@@ -32,10 +32,6 @@ export const servicesData = [
         title: "Server Management ",
         description: "(Linux, Nginx, Load Balancing)",
       },
-      {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
     ],
   },
   {
@@ -46,10 +42,6 @@ export const servicesData = [
       {
         title: "Code Audits",
         description: "(Refactoring, Tech Debt Cleanup)",
-      },
-      {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
       },
       {
         title: "SEO Tech Stack",
@@ -76,106 +68,108 @@ export const servicesData = [
       },
     ],
   },
+  {
+    title: "Game Development",
+    description:
+      "Immersive, high-performance games that blend realism with intelligent systems. I build optimized, scalable game mechanics and AI using modern engines and languages for PC, console, and cross-platform deployment.",
+    items: [
+      {
+        title: "Unreal Engine Expertise",
+        description: "(UE5, Nanite, Lumen, Cross-platform builds)",
+      },
+      {
+        title: "AI Systems",
+        description: "(C++20, Custom State Machines, Adaptive NPCs)",
+      },
+      {
+        title: "Performance Optimization",
+        description: "(Memory-efficient systems, Profiling tools)",
+      },
+      {
+        title: "Collaboration",
+        description: "(Git workflows, Codebase management, Team scaling)",
+      },
+    ],
+  },
 ];
+
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Automation Builder",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+      "A B2C SaaS platform that empowers users to create custom automation workflows via drag-and-drop nodes—integrating services like Google Drive, Slack, Discord, Notion, and subscription management via Stripe.",
+    href: "https://github.com/hiteshchouhan22/automation_builder",
+    image: "/assets/projects/automation-builder.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 1, name: "Next.js 14" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Clerk" },
+      { id: 4, name: "Stripe" },
+      { id: 5, name: "Google Drive API" },
+      { id: 6, name: "Slack API" },
+      { id: 7, name: "Discord API" },
+      { id: 8, name: "Notion API" },
+      { id: 9, name: "Drag-and-Drop UI" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Bee-Newsletter (SaaS Email Newsletter Platform)",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
-    image: "/assets/projects/plant-shop.jpg",
+      "A SaaS newsletter platform built with Next.js 14 and TypeScript, featuring user authentication, campaign dashboard, email template design, AWS SES for email delivery, Stripe-powered subscription handling, plus spam protection and a clean landing page experience.",
+    href: "https://github.com/hiteshchouhan22/Bee-newsletter",
+    image: "/assets/projects/bee-newsletter.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "Next.js 14" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "AWS SES" },
+      { id: 4, name: "AstraDB" },
+      { id: 5, name: "Stripe" },
+      { id: 6, name: "Spam Protection" },
+      { id: 7, name: "Email Template Editor" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "AI Japanese Language Teacher",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+      "An interactive 3D AI-powered Japanese language learning app featuring animated teacher and classroom models (GLB/GLTF), text-to-speech, and easy model-swapping support for customization and avatars.",
+    href: "https://github.com/hiteshchouhan22/AI_Teacher",
+    image: "/assets/projects/ai-teacher.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "JavaScript" },
+      { id: 2, name: "Three.js (3D)" },
+      { id: 3, name: "GLB/GLTF Models" },
+      { id: 4, name: "Text-to-Speech AI" },
+      { id: 5, name: "Customizable Avatars" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Realistic Horror Game (Development Phase)",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
+      "A cutting-edge horror game built in Unreal Engine 5, featuring intelligent AI behavior, memory-efficient systems, and optimized cross-platform build configurations. Designed for realism and immersion with a focus on performance and collaborative development.",
+    href: "https://www.loom.com/share/dc147ce5e9cb4668a258432314658f84",
+    image: "/assets/projects/horror-game.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
+    date: "Aug 2024 – Present",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Home Decor Marketplace",
-    description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
-    frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Unreal Engine 5" },
+      { id: 2, name: "C++20" },
+      { id: 3, name: "Custom AI State Machines" },
+      { id: 4, name: "Performance Profiling Tools" },
+      { id: 5, name: "Cross-Platform Build Configurations" },
+      { id: 6, name: "Git (Branching & Collaboration)" },
     ],
   },
 ];
+
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Instagram", href: "https://www.instagram.com/" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/hiteshchouhan22/" },
+  { name: "GitHub", href: "https://github.com/hiteshchouhan22" },
 ];
